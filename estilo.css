@@ -1,0 +1,508 @@
+html, body{
+  
+    width:100%;
+    background-color: #252525;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin:0px;
+    
+}
+body{
+    position: relative;
+}
+header{
+    
+    background-image: url(imagens/banner\ geg.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    
+}
+    
+    header h1{   
+        position:absolute;
+        color: white;
+        top: 15px;
+        left:270px;
+        
+        
+        font-family: 'MonteCarlo', cursive;
+        font-size: 60px;                       
+    
+}
+
+.spotify{
+    background-image: url(imagens/Group\ 2.png);
+    padding-top: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 380px;
+    
+}
+.botao{
+    text-align: center;
+}
+.navbar.transparent.navbar-dark {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    float: right;
+  
+}
+.navbar span{
+    width: 50px; 
+}
+
+#yt{
+    height: 500px;
+    background: url(imagens/Group\ 1.png),
+    #FFFFFF;
+    background-position-x: -50px;
+    text-align: center;
+   
+    
+}
+#yt iframe{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+#insta{
+    
+}
+
+#face{
+    margin-top: 350px;
+}
+
+.contatos{
+    height: 350px;
+    background-color: rgba(7, 7, 7, 0.33);
+   
+    
+}
+.oi{
+   
+    padding-bottom: 20px;
+}
+
+
+.spot{
+    padding-bottom: 30px;
+}
+#cel{
+    transform: rotate(-10.71deg);
+    height: 420px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+
+#seguir{
+   margin-left: 30px;
+margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#cont{
+    margin: auto;
+ 
+}
+
+
+footer{
+    color: thistle;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#deezer, #you{
+    display: block;
+    margin: 10px 0px 10px 30px;
+}
+#social{
+   
+    margin-top: 200px;
+    
+  
+    
+}
+      #face, #insta{
+          margin-top: 20px;
+          position:absolute;
+          left: 110px;
+      }    
+
+.biografia h2{
+    line-height: 400px;
+}
+footer p{
+    text-align: center;
+}
+.contatos h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.icones a{
+    color: white ;
+    text-decoration: none;
+    
+  }
+  .icones :visited{
+    color: white ;
+    text-decoration: none;
+    
+  }
+  .icones :hover{
+    background: rgb(244,238,238);
+    background: linear-gradient(90deg, rgba(244,238,238,0.36458333333333337) 0%, rgba(196,192,192,0.5718662464985995) 45%, rgba(177,171,171,0.38139005602240894) 79%);
+    border-radius: 5px;
+    
+    
+  }
+
+.contatos h3{
+    font-size: 15px;
+}
+.contatos button{
+    margin-bottom: 30px;
+}
+.botao{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+.botao:hover, .botao:focus{
+    border: white 1px solid;
+    background: rgb(244,238,238);
+    background: linear-gradient(90deg, rgba(244,238,238,0.36458333333333337) 0%, rgba(196,192,192,0.5718662464985995) 45%, rgba(177,171,171,0.38139005602240894) 79%);
+}
+.botao:visited{
+    border: white 1px solid;
+    background: rgb(244,238,238);
+    background: linear-gradient(90deg, rgba(244,238,238,0.36458333333333337) 0%, rgba(196,192,192,0.5718662464985995) 45%, rgba(177,171,171,0.38139005602240894) 79%);
+}
+.soci{
+    background-color: transparent;
+    border: transparent 2px solid;
+    
+
+}
+.soci a{
+    text-decoration: none;
+  
+}
+#face:hover{
+   
+}
+#social2{
+    padding-top: 30px;
+}
+p{
+    padding: 30px 0px 0px 0px;
+    font-size: 13px;
+    
+}
+/* Dropdown Button */
+.dropbtn {
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 16px;
+    border: transparent 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    top:10px;
+    float: right;
+    margin-top: 30px;
+    
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    border: transparent 2px solid;
+    border-radius: 5px;   
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+  float: left;
+  
+  }
+  .dropdown img{
+      width: 30px;
+      height: 30px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background:gray;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+  }
+  .dropbtn{
+      background-image: url(imagens/menu.png);
+      background-color:transparent;
+      height: 50px;
+      width: 50px;
+      background-repeat: no-repeat;
+     
+     
+  }
+  #yt iframe {
+      width: 560px;
+      height: 315px;
+  }
+ 
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background: rgb(244,238,238);
+    background: linear-gradient(90deg, rgba(244,238,238,0.36458333333333337) 0%, rgba(196,192,192,0.5718662464985995) 45%, rgba(177,171,171,0.38139005602240894) 79%);}
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+
+
+
+      @media (max-width: 768px){
+          body{
+              position: relative;
+              font-size: 12px;
+          }
+ 
+        header h1{
+            position: absolute;
+            font-size: 30px;
+           top: -5px;
+           left: -10px;
+        }
+        nav img{
+           
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            top: -5px;
+            left: 5px;
+           
+            
+        }
+        nav ul{
+           
+            position: absolute;
+            top: -5px;
+
+        }
+        .contatos{
+            height: 480px;
+        }
+
+        #cel{
+            display: none;
+        }
+        .spotify{
+            height: 570px;
+            background-image: none;
+            
+        }
+        #deezer, #you{
+            display: block;
+            margin:10px 0px 0px 20px;
+            width: 200px;  
+            
+            
+        }
+        #deezer img, #you img{
+            
+            width: 50px; 
+            height: 50px; 
+            
+        }
+            
+        
+        
+        #seguir{
+            display: block;
+            text-align: center;
+           
+        }
+        header{
+            height: 500px;
+            background-image: url(imagens/banner\ cel.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #social{
+            position: absolute;
+            top: 70px;
+            margin-top: 0px;
+            left: -10px
+         
+          
+        }
+
+        
+        h2{
+                line-height: 30px;
+                margin: 20px 0px 20px 0px;
+                
+           
+        }
+        footer{
+            position: absolute;
+            bottom: 0px;
+        }
+        h3{
+            font-size: 18px;
+        }
+       
+#insta img, #face img{
+    width: 20px;
+    height: 20px;
+}
+.biografia h2{
+    line-height: 20px;
+}
+ p{
+     padding: 10px 0px 10px 0px;
+ }
+ .dropbtn{
+    background-image: url(imagens/menu3.png);
+    background-color:transparent;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+   
+}
+.dropdown {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+  
+  }
+
+header h1{
+    float: left;
+    margin-left: 70px;
+    font-size: 25px;
+    
+}
+
+#yt{
+    background-image: none;
+    background-color: #252525 ;
+    height: 450px;
+
+}
+
+.email{
+    text-align: center;
+}
+
+
+.biografia p{
+    text-align: center;
+}
+#yt iframe {
+    width: 90%;
+    height: 315px;
+}
+.contatos img{
+    margin-left: -10px;
+}
+.icones img{
+    width: 30px;
+    height: 30px;
+}
+#insta{
+    position: absolute;
+    top: 20px;
+} 
+
+.img-cnt img{
+    height: 199px;
+    width:280px ;
+}
+header{
+    
+    background-size: cover;
+    
+    background-position:-50px;
+    
+
+
+      }
+   
+       
+      }
+
+      
+
+
+      @media (min-width: 1500px)
+      {
+          #yt{
+              background-repeat: no-repeat;
+              background-size: cover;
+
+          }
+            #yt iframe {
+      width: 700px;
+      height: 450px;
+      margin-top:30px;
+  }
+          header{
+   
+    height: 1200px;
+    
+}
+.dropdown {
+    position: absolute;
+    top: -5px;
+    left: 25px;
+}
+ #social{
+            position: absolute;
+            top: 170px;
+            margin-top: 0px;
+            left: 10px;
+          
+        }
+        header h1{
+  
+  
+    font-size: 100px;
+    
+}
+
+      }
